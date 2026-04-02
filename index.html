@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title> To-Do App</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+
+<body>
+    <div class="petals">
+  <span class="petal"></span>
+  <span class="petal"></span>
+  <span class="petal"></span>
+  <span class="petal"></span>
+  <span class="petal"></span>
+</div>
+
+    <h1> Goals Today</h1>
+    <input type="text" id="taskInput"
+    placeholder="What do you want to do today? 🌸">
+    <button id="addBtn">Add</button>
+
+    <div class="new-tasks-card">
+        <h2>New Tasks</h2>
+        <ul id="taskList"></ul>
+    </div>
+
+    <div class="container">
+
+        <div class="card" id="priorityCard">
+            <h2>Priority Task</h2>
+            <ul id="priorityList"></ul>
+    </div>
+
+    <div class="card" id="importantCard">
+        <h2>Important Task</h2>
+        <ul id="importantList"></ul>
+    </div>
+
+    <div class="card" id="smallCard">
+        <h2>Small Task</h2>
+        <ul id="smallList"></ul>
+    </div>
+</div>
+
+<div class="quote-box">
+    <p id="quoteText"></p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
